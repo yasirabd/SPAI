@@ -13,7 +13,7 @@ Getting tweet documents using Twitter API. The results are as follows.
 
 ## Step 2: Exploratory Data Analysis
 We can visualizing the number of tweets for each day.
-(image)
+![EDA](https://github.com/yasirabd/SPAI/blob/master/Project%201/assets/eda.png "EDA")
 
 ## Step 3: Implement Encrpyted Dataset
 Encrypt our Twitter dataset.
@@ -35,3 +35,4 @@ db.query("0@JustNowBulletin")
 
 ## Step 4: Topic Modelling
 Implementing Latent Dirichlet Allocation on Encrypted Twitter Dataset. The results are as follows.
+![LDA](https://github.com/yasirabd/SPAI/blob/master/Project%201/assets/lda.PNG "LDA")
