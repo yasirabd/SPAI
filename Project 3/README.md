@@ -16,8 +16,16 @@ Create machine translation from English to Indonesian
 
 ## Step 3: The Seq2Seq Model
 - Create EncoderRNN: The encoder of a seq2seq network is a RNN that outputs some value for every word from the input sentence. For every input word the encoder outputs a vector and a hidden state, and uses the hidden state for the next input word.
+
+![EncoderRNN](https://github.com/yasirabd/SPAI/blob/master/Project%203/assets/encoder-network.png "EncoderRNN")
+
 - Create DecoderRNN: The decoder is another RNN that takes the encoder output vector(s) and outputs a sequence of words to create the translation
-- Create Attention Decoder: Attention allows the decoder network to “focus” on a different part of the encoder’s outputs for every step of the decoder’s own outputs
+
+![DecoderRNN](https://github.com/yasirabd/SPAI/blob/master/Project%203/assets/decoder-network.png "DecoderRNN")
+
+- Create Attention Decoder: Attention allows the decoder network to “focus” on a different part of the encoder’s outputs for every step of the decoder’s own outputs.
+
+![DecoderAttn](https://github.com/yasirabd/SPAI/blob/master/Project%203/assets/attention-decoder-network.png "DecoderAttn")
 
 ## Step 4: Training
 - To train we run the input sentence through the encoder, and keep track of every output and the latest hidden state. Then the decoder is given the token as its first input, and the last hidden state of the encoder as its first hidden state.
