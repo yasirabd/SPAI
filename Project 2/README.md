@@ -8,11 +8,12 @@ Implement federated learning on Fashion MNIST dataset.
 
 ## Step 2: Load data
 - Load Fashion MNIST dataset using <code>torchvision.datasets</code>.
-(image)
+![FashionMNIST](https://github.com/yasirabd/SPAI/blob/master/Project%202/assets/fashion-mnist.png "FashionMNIST")
 - Create <code>federated_train_loader</code> using <code>FederatedDataLoader</code>. Don't forget to transform dataset!
 - Create <code>test_loader</code> using <code>torch.utils.DataLoader</code>. Don't forget to transform dataset!
-- Visualize data
-(image)
+- Visualize one data
+
+![Shoes](https://github.com/yasirabd/SPAI/blob/master/Project%202/assets/shoes.png "Shoes")
 
 ## Step 3: Convolutional Neural Network
 - Create architecture Class <code>CNN</code>.  

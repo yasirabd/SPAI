@@ -7,3 +7,6 @@ This project aims to show how to implementing Topic Modelling Latent Dirichlet A
 
 ## Project 2: Federated Learning on Fashion MNIST using CNN
 This project aims to show how to implementing federated learning on fashion mnist dataset. For more details visit [here](https://github.com/yasirabd/SPAI/tree/master/Project%202).
+
+## Project 3: Machine Translation with a Sequence to Sequence Network and Attention (English - Indonesian)
+This project aims to show how to make machine translation using Sequence to Sequence Network and Attention from English to Indonesian. For more details visit [here](https://github.com/yasirabd/SPAI/tree/master/Project%203).
